@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- bootstrap /-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<!--CSS-->
+<link rel="stylesheet" href="./estilos.css">
+<!-- metadatos -->
+<meta charset="utf-8">
+<meta name="author" content="Hector">
+<meta name="description" content="Calculadora en JavaScript">
+<meta name="Keywords" content="calculadora, JavaScript">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Titulo -->
+<title>Calculadora | JavaScript web</title>
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="./imagenes/calculadora.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- familia de letras -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;600;800&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Rubik+Dirt&display=swap"
+  rel="stylesheet">
+
+</head>
+
+<body onload="init()">
+
+    <section class="contenedor-teclado">
+      <div class="visor-chico" id="visor-chico"></div>
+      <div class="visor" id="resultado"></div>
+      <button class="teclas mas" id="suma">+</button>
+      <button class="teclas menos" id="resta">-</button>
+      <button class="teclas multiplica" id="multiplica">*</button>
+      <button class="teclas divide" id="divide">/</button>
+      <button class="teclas siete" id="siete">7</button>
+      <button class="teclas ocho"  id="ocho">8</button>
+      <button class="teclas nueve" id="nueve">9</button>
+      <button class="teclas igual" id="igual">=</button>
+      <button class="teclas cuatro" id="cuatro">4</button>
+      <button class="teclas cinco" id="cinco">5</button>
+      <button class="teclas seis" id="seis">6</button>
+      <button class="teclas uno" id="uno">1</button>
+      <button class="teclas dos" id="dos">2</button>
+      <button class="teclas tres" id="tres">3</button>
+      <button class="teclas cero" id="cero">0</button>
+      <button class="teclas punto" id="punto">.</button>
+      <button class="teclas ce" id="ce">C</button>
+
+
+    </section>
+<!-- bootstrap /-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+crossorigin="anonymous"></script>
+<script src="./operaciones.js"></script>
+</body>
+
+</html>

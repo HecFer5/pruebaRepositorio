@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.contenedor-teclado {
+  display: grid;
+  grid-auto-rows: 60px;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  justify-content: center;
+  background-color: blue;
+  border: solid 1px black;
+  padding: 10px;
+  height: 400px;
+  width: 300px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+
+}
+.visor-chico{
+  border: solid 1px black;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  text-align: start;
+}
+.visor {
+  border: solid 1px black;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin: 0;
+  background-color: black;
+  color: white;
+  text-align: end;
+  
+}
+.contenedor-teclado .mas {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: rgb(149, 162, 223);
+  
+}
+.teclas{
+  border-radius: 15%;
+  margin: 1px;
+  border: 3px double gray;
+}
+.teclas:hover{
+  background-color: rgb(187, 181, 181);
+}
+.teclas:active{
+  color: blue;
+  background-color: rgb(189, 30, 51);
+}
+ 
+.menos {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color:rgb(149, 162, 223);
+  mask-origin: 0;
+}
+.multiplica {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  background-color:rgb(149, 162, 223);
+}
+.divide {
+  grid-row-start: 2;
+  grid-column-start: 4;
+  background-color: rgb(149, 162, 223);
+}
+
+.siete {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  padding: 2px;
+  background-color: bisque;
+}
+.ocho {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  padding: 2px;
+  background-color: bisque;
+}
+.nueve {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  padding: 2px;
+  background-color: bisque;
+}
+.cuatro {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  padding: 2px;
+  background-color: bisque;
+}
+.cinco {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  padding: 2px;
+  background-color: bisque;
+}
+.seis {
+  grid-row-start: 4;
+  grid-column-start: 3;
+  padding: 2px;
+  background-color: bisque;
+}
+
+.uno {
+  grid-row-start: 5;
+  grid-column-start: 1;
+  padding: 2px;
+  background-color: bisque;
+}
+.dos {
+  grid-row-start: 5;
+  grid-column-start: 2;
+  padding: 2px;
+  background-color: bisque;
+}
+.tres {
+  grid-row-start: 5;
+  grid-column-start: 3;
+  padding: 2px;
+  background-color: bisque;
+}
+
+.cero {
+  grid-row-start: 6;
+  grid-column-start: 1;
+  padding: 2px;
+  background-color: bisque;
+}
+.punto {
+  grid-row-start: 6;
+  grid-column-start: 2;
+  padding: 2px;
+  background-color: bisque;
+}
+.ce {
+  grid-row-start: 6;
+  grid-column-start: 3;
+  padding: 2px;
+  background-color: bisque;
+  font-weight: bold;
+}
+
+.igual {
+  grid-row-start: 3;
+  grid-row-end: 7;
+  grid-column-start: 4;
+  padding: 2px;
+  background-color: rgb(69, 192, 155);
+  border-radius: 5%;
+}
+
+
+.numeros{
+  color: black;
+  text-decoration: none;
+}
